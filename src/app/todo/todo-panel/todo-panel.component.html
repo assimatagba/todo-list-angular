@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="row text-center">
+    <h2>TODO APP</h2>
+  </div>
+  <hr>
+  <!-- Affichage du formulaire -->
+  <app-todo-form></app-todo-form>
+
+  <hr>
+
+  <div class="navbar-nav">
+    <li routerLinkActive="active"><a class="nav-link" routerLink="">Toutes</a></li>
+    <li routerLinkActive="active"><a class="nav-link" routerLink="todo-on-wait">En Attentes</a></li>
+    <li routerLinkActive="active"><a class="nav-link" routerLink="">Exécutés</a></li>
+  </div>
+
+  <!-- Todo Listes -->
+  <app-todo-list-view></app-todo-list-view>
+
+</div>

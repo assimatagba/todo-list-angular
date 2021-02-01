@@ -1,0 +1,13 @@
+<ul class="list-group">
+  <app-todo *ngFor="let todo of todos; let i = index"
+    [indexOfTodo]= "i"
+    [todoName]="todo.title"
+    [todoStatus]="todo.status"
+    [id]="todo.id"
+      ></app-todo>
+
+      <button class="btn btn-primary"
+        (click)="onFetch()">
+          Charger les données
+      </button>
+</ul>

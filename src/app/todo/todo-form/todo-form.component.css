@@ -1,0 +1,13 @@
+::placeholder{
+  text-align: center;
+}
+
+input, select{
+  width: 250px;
+  margin-left: 32%;
+  margin-bottom: 10px;
+}
+
+button{
+  width: 150px;
+}
